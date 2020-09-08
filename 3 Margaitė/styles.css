@@ -2,24 +2,6 @@ body {
     background-color: #F8F8F8;
     text-align: center;
 }
-.container {
-    display: inline-block;
-    width: 80%;
-}
-header {
-    display: inline-block;
-    width: 100%;
-    margin: 20px 0 0 0;
-}
-.logo {
-    display: inline-block;
-    float: left;
-    width: 80px;
-}
-nav {
-    display: inline-block;
-    float: right;
-}
 a {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
@@ -27,24 +9,61 @@ a {
     padding: 30px 10px;
     color: #CBCBCB;
 }
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+nav {
+    display: inline-block;
+    float: right;
+}
+h1 {
+    display: inline-block;
+    float: left;
+    margin: 80px 0 -40px 0;
+    font-size: 120px;
+}
+p {
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #C1C1C1;
+    margin: 0;
+    font-size: 40px;
+}
+.container {
+    display: inline-block;
+    width: 80%;
+}
+
+.logo {
+    display: inline-block;
+    float: left;
+    width: 80px;
+}
+
 .signin {
     border-radius: 20px;
     border: solid 2px #CBCBCB;
     padding: 3px 15px;
     margin-left: 10px;
 }
+
 .block {
     display: inline-block;
     width: 100%;
     padding: 20px 0 0 0;
-    align-items: stretch;
 }
+
 .message {
     display: inline-block;
     float: left;
-    text-align: center;
-    width: 50%;
+    font-family: 'Dubai Light', Arial, sans-serif;
+    color: #9C9C9C;
+    text-align: left;
+    width: 40%;
 }
+
 .mergaite {
     display: inline-block;
     float: right;
