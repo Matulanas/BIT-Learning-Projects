@@ -1,0 +1,17 @@
+body {
+    text-align: center;
+    background-color: #fff;
+    margin: 100px 0 0 0;
+}
+
+.header {
+    background-color: bisque;
+    display: inline-block;
+}
+.block {
+    display: inline-block;
+    width: 100%;
+}
+.card {
+    display: inline-block;
+}
