@@ -1,0 +1,25 @@
+body {
+    background-color: #EAEBED;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+    display: inline-block;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+h1 {
+    font-size:100px;
+    color: #343E48;
+}
+p {
+    font-size: 35px;
+    color: #5C5D7B;
+}
+a {
+    font-size: 25px;
+    background-color: #696F89;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+}
