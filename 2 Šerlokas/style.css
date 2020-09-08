@@ -16,6 +16,10 @@ p {
     font-size: 35px;
     color: #5C5D7B;
 }
+p:nth-of-type(2){
+    font-size: 18px;
+    color: #94949E;
+}
 a {
     font-size: 25px;
     background-color: #696F89;
