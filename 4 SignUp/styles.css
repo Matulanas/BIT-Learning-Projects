@@ -18,29 +18,66 @@ body, html {
 /* Left section */
 .left {
     display: inline-block;
-    width: 260px;
-    height: 375px;
+    margin: 20px 0;
+    width: 40%;
+    height: 370px;
     float: left;
     background-image: url(images/left.png);
     background-repeat: no-repeat;
     background-size: cover;
-    object-position: center top;
-
 }
 .left p {
     display: inline-block;
     float: left;
-    padding: 0 0 0 20px;
+    height: 80%;
+    padding: 20px 0 0 20px;
     font-size: 35px;
     color: #fff;
     font-weight: 200;
+    margin: 0;
+    
 }
 .left a {
     display: inline-block;
-    text-decoration: none;
-    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+    color: #9c86ca;
+    padding: 15px 0;
 }
+
+/* Right section */
 .right {
     display: inline-block;
+    background-color: #fff;
+    float: left;
+    width: 60%;
+    height: 410px;
+}
+.right a {
+    display: inline-block;
+    text-decoration: none;
+    float: right;
+    padding: 10px;
+}
+.right p {
+    display: inline-block;
+    font-size: 14px;
+    text-align: left;
+    float: left;
+    width: 80%;
+    margin: 0;
+    color: #9c86ca;
+}
+.right form {
+    display: inline-block;
+    width: 100%;
+    padding: 0 15px 0 15px;
+}
+.right input {
+    display: inline-block;
     width: auto;
+    float: left;
+    border: 0;
+    border-bottom: solid 1px #9c86ca;
+    margin: 0 0 15px 0;
 }
