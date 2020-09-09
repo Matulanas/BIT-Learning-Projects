@@ -49,7 +49,7 @@ body, html {
 .right {
     display: inline-block;
     background-color: #fff;
-    float: left;
+    
     width: 60%;
     height: 410px;
 }
@@ -61,23 +61,22 @@ body, html {
 }
 .right p {
     display: inline-block;
-    font-size: 14px;
-    text-align: left;
-    float: left;
-    width: 80%;
+    width: 70%;
+    font-size: 12px;    
     margin: 0;
     color: #9c86ca;
 }
 .right form {
     display: inline-block;
+    text-align: left;
     width: 100%;
-    padding: 0 15px 0 15px;
+    padding: 30px 0 0 50px;
 }
 .right input {
     display: inline-block;
-    width: auto;
     float: left;
+    width: 70%;
     border: 0;
     border-bottom: solid 1px #9c86ca;
-    margin: 0 0 15px 0;
+    margin: 0 0 30px 0;
 }
