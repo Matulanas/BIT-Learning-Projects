@@ -80,3 +80,26 @@ body, html {
     border-bottom: solid 1px #9c86ca;
     margin: 0 0 30px 0;
 }
+
+/* Buttons */
+.submit {
+    border: 0;
+    color: #fff;
+    border-radius: 15px;
+    padding: 5px 20px;
+    background-color: #0065db;
+    
+}
+.signin {
+    color:#0065db;
+    border: 0;
+    background-color: #fff;
+}
+.signin p {
+    width: auto;
+    padding-right: 5px;
+    color: #000;
+}
+button, input {
+    outline: none;
+}
