@@ -10,16 +10,16 @@ a {
     color: #CBCBCB;
 }
 header {
-    display: inline-block;
-    position: relative;
+    display: table;
     width: 100%;
     margin: 20px 0 0 0;
 }
 
 nav {
-    position: absolute;
-    top: 26px;
-    right: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    padding-right: 30px;
 }
 h1 {
     display: inline-block;
