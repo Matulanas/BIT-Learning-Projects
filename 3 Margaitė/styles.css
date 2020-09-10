@@ -6,7 +6,7 @@ a {
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    /* padding: 30px 10px; */
+    padding: 30px 10px;
     color: #CBCBCB;
 }
 header {
@@ -43,8 +43,7 @@ p {
     float: left;
     width: 80px;
 }
-
-.signin {
+a:last-of-type {
     border-radius: 20px;
     border: solid 2px #CBCBCB;
     padding: 3px 15px;
