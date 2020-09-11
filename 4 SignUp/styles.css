@@ -17,7 +17,7 @@ body, html {
 
 /* Left section */
 .left {
-    display: inline-block;
+    display: block;
     margin: 20px 0;
     width: 40%;
     height: 370px;
@@ -27,7 +27,7 @@ body, html {
     background-size: cover;
 }
 .left p {
-    display: inline-block;
+    display: block;
     float: left;
     height: 80%;
     padding: 20px 0 0 20px;
@@ -54,7 +54,7 @@ body, html {
     height: 410px;
 }
 .right a {
-    display: inline-block;
+    display: block;
     text-decoration: none;
     float: right;
     padding: 10px;
@@ -67,7 +67,7 @@ body, html {
     color: #9c86ca;
 }
 .right form {
-    display: inline-block;
+    display: block;
     text-align: left;
     width: 100%;
     padding: 30px 0 0 50px;
