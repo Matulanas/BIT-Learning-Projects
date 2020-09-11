@@ -9,7 +9,7 @@ main {
     width: 800px;
 }
 div {
-    display: inline-block;
+    display: block;
     width: 50%;
     float: left;
     text-align: center;
