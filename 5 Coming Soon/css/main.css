@@ -13,8 +13,8 @@
 
     .row {
         display: inline-block;
-        width: 1000px;
-        margin-left: calc((100% - 1000px) / 2);
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
     }
 
         .left-column {
@@ -45,9 +45,67 @@
     background-color: #03a9f4;
 }
 .hero-bg {
-    background-image: url(../img/hero-bg.jpg);
+    background-image: url(../img/hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
     background-attachment: fixed;
+}
+
+
+/* Responsive design */
+@media (max-width: 1100px){
+    .row {
+        width: 800px;
+        margin-left: calc((100% - 800px) / 2);
+    }
+}
+
+@media (max-width: 900px){
+    .row {
+        width: 600px;
+        margin-left: calc((100% - 600px) / 2);
+    }
+    .left-column {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .right-column {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media (max-width: 700px){
+    .hero-row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+    .row {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+    .texts {
+        width: 400px;
+        margin-left: calc((100% - 400px) / 2);
+    }
+}
+
+@media (max-width: 500px){
+    .container {
+        padding: 0 20px;
+    }
+    .hero-row {
+        width: 100%;
+        margin-left: 0;
+    }
+    .row {
+        width: 100%;
+        margin-left: 0;
+    }
+    .texts {
+        width: 100%;
+        margin-left: 0;
+    }
 }
