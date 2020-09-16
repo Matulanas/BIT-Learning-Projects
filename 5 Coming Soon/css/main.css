@@ -67,12 +67,14 @@
             display: inline-block;
             width: 100%;
             border-bottom: 1px solid #fff;
+            text-align: center;
         }
 
         .texts {
             display: inline-block;
             width: 600px;
             margin-left: calc((100% - 600px) / 2);
+            text-align: center;
         }
 
 
