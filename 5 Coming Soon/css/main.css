@@ -69,6 +69,12 @@
             border-bottom: 1px solid #fff;
             text-align: center;
         }
+            .social > a {
+                text-decoration: none;
+                color: #fff;
+                line-height: 30px;
+                padding: 15px 5px;
+            }
 
         .texts {
             display: inline-block;
@@ -146,3 +152,12 @@
         margin-left: 0;
     }
 }
+
+
+
+
+.fas {
+    transform: rotate(45deg);
+}
+
+
