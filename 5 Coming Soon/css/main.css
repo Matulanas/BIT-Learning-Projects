@@ -180,9 +180,11 @@
     }
     .copyright > .texts {
         width: 100%;
+        margin: 0;
     }
     .copyright > .texts.borders {
         border: none;
+        margin: 0;
     }
 }
 
