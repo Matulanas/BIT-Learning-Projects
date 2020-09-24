@@ -3,10 +3,19 @@ body * {
 margin: 0;
 padding: 0;
 vertical-align: top;
+text-align: center;
 box-sizing: border-box;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .raudonas-fonas {
     background-color: red;
+    height: 300px;
+    padding-top: 100px;
+}
+
+p {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: underline;
 }
