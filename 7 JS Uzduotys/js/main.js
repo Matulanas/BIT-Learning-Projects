@@ -111,8 +111,12 @@ let dalinasi5 = 0;
 
 
 console.log('Ciklas: 0 - 11');
+
+const nuo = 0;
+const daliklis = 3;
 const cikloSk = 11;
-for (let i=0; i <= cikloSk; i++){
+
+for (let i=nuo; i <= cikloSk; i++){
     if ((i % 3) == 0){
         dalinasi3++;
     } 
@@ -123,8 +127,8 @@ console.log(`Cikle 0-11 be liekanos skaičius 3 dalinasi: ${dalinasi3} kartus`);
 console.log('Ciklas: 8 - 31');
 const cikloSk2 = 31;
 for (let i=8; i <= cikloSk2; i++){
-    if (i != 0 && (i % 3) == 0){
-        dalinasi3++;
+    if (i !== 0 && (i % 3) == 0){
+        dalinasi3++; 
     } 
 }
 console.log(`Cikle 8-31 be liekanos skaičius 3 dalinasi: ${dalinasi3} kartus`);
@@ -140,6 +144,23 @@ for (let i=-18; i <= cikloSk3; i++){
 console.log(`Cikle -18-18 be liekanos skaičius 3 dalinasi: ${dalinasi3} kartus`);
 
 
+console.log('--');
+console.log('--');
+console.log('--');
+
+// abcdef -> fedcba
+
+let zodis = 'abcdef';
+let reverse = '';
+
+for(let i = zodis.length -1; i >= 0; i--){
+    reverse = reverse + zodis[i];
+}
+
+console.log(zodis,'->', reverse);
+
+
+
 console.log('----------------');
 console.log('----------------');
 console.log('----------------');
@@ -151,11 +172,11 @@ console.log('Daugyba');
 
 const skaicius1 = 3;
 const skaicius2 = 5;
-function daugybosf(x, y, daugyba){
-    daugyba = skaicius1 * skaicius2;
+function daugybosf(){
+    let daugyba = skaicius1 * skaicius2;
     return daugyba;
 }
-console.log(daugybosf(skaicius1,skaicius2));
+console.log(daugybosf());
 
 
 console.log('');
@@ -165,14 +186,14 @@ console.log('');
 console.log('Skaitmenų kiekis skaičiuje');
 console.log('');
 
-const sk = 'a';
+const sk = 'aaa';
 console.log(`Pateikta reikšmė yra: ${sk}`);
 function kiekisSkaiciuje(x){
-    x = sk;
+    x = sk.toString(); // ''+123456
     if (!isNaN(x)){
         return `Pateiktos reikšmės simbolių skaičius yra: ${x.length}`;
     } else {
-        return 'Pateikta netinkamo tipo reikšmė.';
+        return `Pateikta netinkamo tipo reikšmė: ${typeof sk}`;
     }
 }
 console.log(kiekisSkaiciuje());
@@ -195,9 +216,7 @@ function didziausiasSkaiciu(){
             console.log('Pateiktas sąrašas negali būti tuščias.');
         }
     } else {
-    console.log('Pateikta netinkamo tipo reikšmė.');
+    console.log('Pateikta netinkamo tipo reikšmė :');
     } 
-    
-    // // return;
 }
 console.log(didziausiasSkaiciu());
