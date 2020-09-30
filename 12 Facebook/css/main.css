@@ -1,0 +1,28 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr 240px;
+    grid-template-areas: 
+            "head head head"
+            "menu feed msg";
+}
+
+
+
+header {
+    grid-area: head;
+    background-color: blue;
+
+}
+aside {
+
+}
+main {
+    grid-area: feed;
+    padding: 40px;
+}
+.menu {
+    grid-area: menu;
+}
+.msg {
+    grid-area: msg;
+}
