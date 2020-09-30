@@ -22,7 +22,9 @@ main {
 }
 .menu {
     grid-area: menu;
+    background-color: aquamarine;
 }
 .msg {
     grid-area: msg;
+    background-color: aquamarine;
 }
