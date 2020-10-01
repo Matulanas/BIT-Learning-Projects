@@ -1,17 +1,14 @@
-function renderSinglePost(data){
+import renderHeader from './renderHeader.js';
+import renderContent from './renderContent.js';
+import renderFooter from './renderFooter.js';
+
+function renderSinglePost(data) {
     console.log(data);
     return `<div class="post">
-    <header>
-        ${renderHeader()}
-    </header>
-    <div>
-        text + images
-    </div>
-    <footer>
-        like + comment
-    </footer>
-    </div>`;
+                ${renderHeader()}
+                ${renderContent()}
+                ${renderFooter()}
+            </div>`;
 }
-
 
 export default renderSinglePost;
