@@ -119,3 +119,18 @@ const people = [
 //     }
 //         return sentence + ', ' + word }, '');
 // console.log(reduceTexts);
+
+
+
+
+
+
+function inicialai(tekstas) {
+    const zodziai = tekstas.split(' ').map(w => w[0] + '.').join('');
+    return zodziai;
+}
+function biblioteka(knyga, autorius) {
+    return `"${knyga}" - ${inicialai(autorius)}`;
+}
+
+console.log(biblioteka('Brisiaus galas', 'Jonas Biliunas'));
