@@ -1,0 +1,28 @@
+.post {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+    .post > .post-header {
+    display: grid;
+    grid-template-columns: 50px 1fr 30px;
+    gap: 15px;
+    }
+
+    .post > .post-header > .avatar {
+        width: 100%;
+    }
+
+.big-size {
+    font-size: 32px;
+    line-height: 36px;
+}
+.more {
+    color: blue;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.more:hover {
+    text-decoration: underline;
+}
