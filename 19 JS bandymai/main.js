@@ -129,8 +129,29 @@ function inicialai(tekstas) {
     const zodziai = tekstas.split(' ').map(w => w[0] + '.').join('');
     return zodziai;
 }
+
+String.prototype.inicialai = function () {
+    console.log('' + this);
+    return this.split(' ').map(w => w[0] + '.').join('');
+}
+
+String.prototype.kasAntraDidzioji = function () {
+    const tekstas = '' + this;
+
+    let result = '';
+
+    for (let i = 0; i < tekstas.length; i++) {
+        if (i % 2 === 0) {
+            result += tekstas[i].toLowerCase();
+        } else {
+            result += tekstas[i].toUpperCase();
+        }
+    }
+    return result;
+}
+
 function biblioteka(knyga, autorius) {
-    return `"${knyga}" - ${inicialai(autorius)}`;
+    return `"${knyga.kasAntraDidzioji()}" - ${autorius.inicialai()}`;
 }
 
 console.log(biblioteka('Brisiaus galas', 'Jonas Biliunas'));
